@@ -1,0 +1,38 @@
+{{!
+Це код container файлу для index сторінки,
+в якому міститься код, котрий буде віддаватися по шляху (PATH) - "/"
+}}
+
+<div class="page">
+	<header class="header">
+        <button class="button">
+            <img src="/svg/arrow-back.svg">
+        </button>
+        <button class="button">
+            <img src="/img/avatar.png">
+        </button>
+    </header>
+
+<h1 class="title">Коммюніті</h1>
+
+<main class="main">
+	
+    <section class="community">
+        <div class="community__navBar">
+            <button class="button nav__button">База знань</button>
+            <button class="button nav__button active">Інформація</button>
+        </div>
+        <div class="community__content">
+            <img src="/img/community.png">
+            <h2 class="community__title">Що таке база знань?</h2>
+            <p class="community__info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur numquam cupiditate sapiente quo ullam. Quam sapiente delectus id error placeat, recusandae numquam aut illo mollitia modi. Maxime a eaque corrupti.</p>
+            <button class="button community__button">Перейти до ком'юніті у Telegram</button>
+        </div>
+    </section>
+</main>
+</div>
+
+{{!
+    Цей код містить лише те, що буде виводитись в <body>
+    Адже наш layout/default.hbs має вже структуру HTML
+}}
